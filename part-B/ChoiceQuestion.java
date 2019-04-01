@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /**
    A question with multiple choices.
 */
-public class ChoiceQuestion
+public class ChoiceQuestion extends Question
 {
    private ArrayList<String> choices;
 
