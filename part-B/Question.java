@@ -4,7 +4,7 @@
 public class Question
 {
    private String text;
-   private String answer;
+   protected String answer;
 
    /**
       Constructs a question with empty question and answer.

@@ -13,6 +13,7 @@ public class QuestionDemo2
       first.addChoice("Duke", false);
       first.addChoice("Oak", true);
       first.addChoice("Gosling", false);
+      System.out.println(first.getChoices());
 
       ChoiceQuestion second = new ChoiceQuestion();
       second.setText("In which country was the inventor of Java born?");
